@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ml-time-series-forecasting-course-solutions"
+version = "0.1.0"
+description = ""
+authors = ["j-adamczyk <jakub.adamczyk@placewise.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+
+jupyter = "*"
+holidays = "0.*"
+matplotlib = "3.*"
+pandas = "2.*"
+pmdarima = "2.*"
+pyarrow = "17.*"
+python-dateutil = "2.*"
+pytorch-tsmixer = "*"
+scikit-learn = "1.5.*"
+seaborn = "0.13.*"
+sktime = "0.33.*"
+statsforecast = "1.*"
+timesfm = "^1.2.0"
+torch = "2.*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
